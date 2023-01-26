@@ -2,14 +2,14 @@ import java.util.Random;
 public class Game {
 
 	Random randomNum = new Random ();
-	int kaplumbaga=1; //varsayılan konumlar
+	int kaplumbaga=1; //varsayilan konumlar
 	int tavsan=1;	
 
 	public void hareket() {
 		while(true) {
 			randomAtama();
 			
-			if(kaplumbaga>19) {System.out.println("KAPLUMBAĞA KAZANDI! OLLEY!!!");break;}
+			if(kaplumbaga>19) {System.out.println("KAPLUMBAÃA KAZANDI! OLLEY!!!");break;}
 			else if(tavsan>19){System.out.println("TAVSAN KAZANDI! OLLEY!!!");    break;}	
 			
 			tavsanSabiti();
@@ -17,7 +17,7 @@ public class Game {
 			
 			kaplumbagaOnde();
 			tavsanOnde();
-			tavsanKaplumbagaAynı();
+			tavsanKaplumbagaAynÃ½();
 			System.out.println();
 			}}
 	
@@ -53,8 +53,8 @@ public class Game {
 				System.out.print("_ ");
 			}
 			System.out.println();
-			System.out.println("kaplumbağa= "+kaplumbaga);
-			System.out.println("tavşan= "+tavsan);
+			System.out.println("kaplumbaÃ°a= "+kaplumbaga);
+			System.out.println("tavÃ¾an= "+tavsan);
 		}}
 	
 	public void tavsanOnde() {
@@ -71,11 +71,11 @@ public class Game {
 				System.out.print("_ ");
 			}
 			System.out.println();
-			System.out.println("kaplumbağa= "+kaplumbaga);
-			System.out.println("tavşan= "+tavsan);
+			System.out.println("kaplumbaÃ°a= "+kaplumbaga);
+			System.out.println("tavÃ¾an= "+tavsan);
 		}}
 	
-	public void tavsanKaplumbagaAynı() {
+	public void tavsanKaplumbagaAynÃ½() {
 		if(tavsan==kaplumbaga) {
 			for(int a=1; a<=kaplumbaga-1; a++) {
 				System.out.print("_ ");
@@ -85,7 +85,7 @@ public class Game {
 				System.out.print("_ ");
 			}
 			System.out.println();
-			System.out.println("kaplumbağa= "+kaplumbaga);
-			System.out.println("tavşan= "+tavsan);
+			System.out.println("kaplumbaÃ°a= "+kaplumbaga);
+			System.out.println("tavÃ¾an= "+tavsan);
 		}}
 }
