@@ -1,9 +1,10 @@
-Kaplumbağa ve tavşan iki yarışmacı da 20 karelik pistin ilk karesinden yarışa
+1. Kaplumbağa ve tavşan iki yarışmacı da 20 karelik pistin ilk karesinden yarışa
 başlayacaktır. Her kare yarış boyunca yarışmacıların bulunabilecekleri yerleri ifade
 etmektedir. 20. Kareye ilk varan ya da geçen yarışı kazanacaktır. Yarış kaygan bir zeminde
 olacağı için yarışmacılar zaman zaman kayabilmektedir. Her hareket için bir kere rastgele sayı
 üreterek yarışmacıların hangi hareketi yapacağı belirlenecektir.
-Aşağıdaki şekilde yarışmacıların hangi hareketi yüzde kaç olasılıkla gerçekleştirdiği
+
+2. Aşağıdaki şekilde yarışmacıların hangi hareketi yüzde kaç olasılıkla gerçekleştirdiği
 verilmiştir. Eğer yarışmacılardan biri 1. karesinden (ilk kareden) geriye kayarsa onu yine 1.
 karesinden yarışa devam ettirmekteyiz.
 Örneğin kaplumbağa için üretilen sayı i; 1<=i<=5 ise(%50 olasılık) “hızlı yürüyüş” hareketi,
@@ -14,3 +15,9 @@ Yarış sonunda kaplumbağa kazanırsa “Kaplumbağa kazandı oley” mesajı e
 Eğer tavşan kazanırsa “Tavşan kazandı, yuh!” yazmaktadır. Beraberlik olursa “Berabere”
 yazmaktadır.
 Kaplumbağa ve tavşanın nesneye yönelik mantık ile kodlanması gerçekleşmektedir.
+
+
+
+
+
+
