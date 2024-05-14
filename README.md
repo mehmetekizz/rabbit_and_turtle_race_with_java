@@ -17,6 +17,8 @@ Eğer tavşan kazanırsa “Tavşan kazandı, yuh!” yazmaktadır. Beraberlik o
 yazmaktadır.
 Kaplumbağa ve tavşanın nesneye yönelik mantık ile kodlanması gerçekleşmektedir.
 
+4. KODLAR 'src' DOSYASI İÇERİSİNDE YER ALMAKTADIR.
+
 
 
 
