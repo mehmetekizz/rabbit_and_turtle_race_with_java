@@ -5,7 +5,7 @@ olacağı için yarışmacılar zaman zaman kayabilmektedir. Her hareket için b
 üreterek yarışmacıların hangi hareketi yapacağı belirlenecektir.
 
 2. Aşağıdaki şekilde yarışmacıların hangi hareketi yüzde kaç olasılıkla gerçekleştirdiği
-verilmiştir. Eğer yarışmacılardan biri 1. karesinden (ilk kareden) geriye kayarsa onu yine 1.
+verilmiştir.        Eğer yarışmacılardan biri 1. karesinden (ilk kareden) geriye kayarsa onu yine 1.
 karesinden yarışa devam ettirmekteyiz.
 Örneğin kaplumbağa için üretilen sayı i; 1<=i<=5 ise(%50 olasılık) “hızlı yürüyüş” hareketi,
 6<=i<=7 ise “kayma” hareketi, 8<=i<=10 arasında ise yavaş yürüyüş hareketi gerçekleştirecektir.
